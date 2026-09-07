@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WDD 430 Portfolio
 
-## Getting Started
+This is my portfolio website created for WDD 430 using Next.js, TypeScript, Tailwind CSS, and the App Router.
 
-First, run the development server:
+## About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio showcases web development projects I have completed while developing my skills in backend and full-stack development.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Projects
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### CSE 340 Backend Application
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+A backend-driven web application developed for CSE 340, featuring server-side routing, database integration, controllers, models, utilities, and views.
 
-## Learn More
+Technologies:
+- Node.js
+- Express
+- JavaScript
+- PostgreSQL
+- EJS
 
-To learn more about Next.js, take a look at the following resources:
+### Story Vault API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A REST API project for managing story data, featuring database integration, routes, middleware, server configuration, and API documentation with Swagger.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Technologies:
+- Node.js
+- Express
+- JavaScript
+- MongoDB
+- Swagger
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js
+- TypeScript
+- Tailwind CSS
+- React
+- Next.js App Router
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Custom Component
+
+`AboutHighlight.tsx` is a reusable Server Component that displays a highlighted section on the About page with a title and description about my development focus.
+
+## API Route
+
+The project includes a simple API route at:
+
+`/api/hello`
+
+It returns a JSON response confirming that the Next.js API is working.
+
+## Live Site
+
+Vercel deployment URL will be added here after deployment.
+
+## Author
+
+Charles Davismore details.

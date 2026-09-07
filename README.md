@@ -52,7 +52,7 @@ It returns a JSON response confirming that the Next.js API is working.
 
 ## Live Site
 
-Vercel deployment URL will be added here after deployment.
+https://wdd430-portfolio-r92p8hhvc-wdd432.vercel.app/
 
 ## Author
 
